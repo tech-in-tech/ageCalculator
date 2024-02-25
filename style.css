@@ -6,19 +6,21 @@
 }
 
 .container {
-  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
   height: 100vh;
-  background: #5837f9;
+  background: #000000;
   color: #fff;
   padding: 10px;
 }
 
 .calculator {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 95vmin;
-
-  margin-right: 10%;
-  margin-top: 10%;
+  /* margin-right: 10%; */
+  /* margin-top: 10%; */
 }
 
 .calculator h1 {
@@ -32,13 +34,16 @@
   background: rgba(245, 243, 243, 0.3);
   display: flex;
   align-items: center;
+  
   justify-content: space-evenly;
   /* flex-direction: column; */
 }
 input{
   /* flex: 1; */
   width: 70%;
-  margin-right: 20px;
+  margin-right: 5px;
+  margin-left: 5px;
+
   padding: 14px 20px;
   border: 0;
   outline: 0;
@@ -58,5 +63,12 @@ button{
   font-weight: 500;
   color: #333;
   cursor: pointer;
+  margin-right: 5px;
 }
 
+#age{
+  font-size: 1.3rem;
+}
+#age span{
+  color: #eaf10f;
+}
