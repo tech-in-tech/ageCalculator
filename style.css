@@ -8,6 +8,7 @@
 .container {
   display: flex;
   justify-content: center;
+  /* width: ; */
   align-items: center;
   /* border: 1px solid red; */
   height: 100vh;
